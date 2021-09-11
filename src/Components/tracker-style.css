@@ -1,0 +1,160 @@
+
+.header{
+    font-size: 30px;
+    font-family: ui-rounded;
+    text-align: center;
+    max-width: 380px;
+    padding: 20px 18px;
+    color: #6c757d;
+}
+
+.searchbar-outerdiv{
+    max-width: 931px;
+    padding: 30px 233px;
+    color: #6c757d;
+}
+
+.search{
+    height: 55px !important;
+    border-radius: 23px !important;
+}
+
+
+.display-all{
+    max-width: 972px;
+    display: flex;
+    padding: 0px 116px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.confirmed{
+    width: 25%;
+    color:red;
+    border-radius: 10px;
+}
+
+ .table th{
+    font-size: larger;
+    font-weight: 800;
+    padding: 0.75rem !important;
+    vertical-align: top !important;
+    border-top: 1px !important;
+    border-bottom: 1px !important;
+    background: #444472 !important;
+    border-radius: 7px;
+    color: #6c757d;
+}
+
+.table td{
+    padding: 0.75rem !important;
+    vertical-align: top !important;
+    border-top: 1px !important;
+    border-bottom: 1px !important;
+    border-radius: 7px;
+    color: #6c757d;
+}
+.confirmed:hover{
+    background-color: lightcoral;
+    transition: background .30s ease-in-out;
+}
+
+.statename{
+    font-weight: bold;
+    font-size: medium;
+}
+.statename:hover{
+    background-color: rgb(47, 235, 178);
+    transition: background .30s ease-in-out;
+    font-style: italic;
+}
+.active{
+    width: 25%;
+    color:blue;
+    border-radius: 10px;
+}
+.active:hover{
+    background-color: lightskyblue;
+    transition: background .30s ease-in-out;
+}
+
+.recovered{
+    width: 25%;
+    color:green;
+    border-radius: 10px;
+}
+
+.recovered:hover{
+    background-color: lightgreen;
+    transition: background .30s ease-in-out;
+}
+
+.deceased{
+    width: 25%;
+    color:gray;
+    border-radius: 10px;
+}
+
+.deceased:hover{
+    background-color: lightgray;
+    transition: background .30s ease-in-out;
+}
+
+.lastupdate{
+    padding: 0px 306px 25px;
+    width: max-content;
+    color: #6c757d;
+}
+
+.back{
+   background:  #1e1e30!important
+}
+
+.class-container{
+    max-width: 798px !important;
+    padding: 86px 0px 9px;
+    margin-left: 95px !important;
+    color: #6c757d;
+}
+.table-container{
+    padding: 47px 115px;
+}
+.heading{
+    font-size: 13px;
+    font-weight: 900;
+    padding: 1.25rem .5rem .75rem;
+    text-align: right;
+}
+.cell{
+    align-items: center;
+    border-radius: 3px; 
+    color: #6c757d; 
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: .25rem;
+    margin-right: .25rem;
+    padding: 14px 34px;
+    position: relative;
+    background:#2b2b44!important;
+}
+
+.state-cell{
+    padding: 21px;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
